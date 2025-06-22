@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@heroui/react": "^2.6.14",
-    "@react-three/drei": "^9.122.0",
-    "@react-three/fiber": "^8.18.0",
+    "@react-three/drei": "^9.121.4",
+    "@react-three/fiber": "^9.0.0-alpha.8",
     "clsx": "^2.1.1",
     "framer-motion": "^12.0.1",
     "mini-svg-data-uri": "^1.4.4",
