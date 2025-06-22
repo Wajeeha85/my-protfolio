@@ -80,27 +80,27 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Responsive Menu with Dynamic Filtering",
-    des: "A dynamic restaurant menu with category-based filtering, built using HTML, CSS, and JavaScript for an interactive user experience.",
-    img: "/Screenshot 2025-02-13 050429.png",
-    iconLists: ["/html5.svg", "/css.svg", "/javascript.svg",],
-    link: "https://github.com/Wajeeha85/Typing-Game",
+    title: "ChattApp",
+    des: "Built a real-time chat app using Next.js, TailwindCSS,TypeScript and Firebase with auth, messaging, and live online status features.",
+    img: "/Screenshot 2025-06-22 155125.png",
+    iconLists: ["/next.svg", "/firebase.svg", "/tail.svg",],
+    link: "https://github.com/Wajeeha85/Chattapp/tree/maste ",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Cake Gallery App",
+    des: "Responsive app using Next.js, TypeScript, Tailwind, and Aeternity UI. Displays cakes from an API with hover animations via Framer Motion.",
+    img: "/Screenshot 2025-03-05 082005.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", ],
+    link: "https://github.com/Wajeeha85/Cake-App",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Pizza & Dessert Catalog App",
+    des: "Food catalog app using Next.js, TypeScript, Tailwind, and Aceternity UI. Features API-based data and interactive hover cards.",
+     img: "/Screenshot 2025-06-22 151841.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
+    link: "https://github.com/Wajeeha85/PIzza-and-Deserts",
   },
 ];
 
@@ -173,31 +173,10 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend developer Intern",
+    desc: "Developed effcient and responsive apps using react and Tailwind CSS.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -205,6 +184,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:'github.com/Wajeeha85'
   },
   {
     id: 2,
@@ -213,5 +193,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+    link:'https://www.linkedin.com/in/wajeeha-abbas-dev/'
   },
 ];

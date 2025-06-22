@@ -56,7 +56,7 @@ export const BentoGridItem = ({
     }, 1200);
   };
 
-  console.log(copied,'copy')
+  console.log(copied, "copy");
   return (
     <div
       className={cn(
@@ -114,20 +114,22 @@ export const BentoGridItem = ({
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {["JavaScript", "BootStrap", "Redux"].map((item) => (
-                  <span
-                    key={item}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                {["JavaScript", "BootStrap", "Redux", "Firebase"].map(
+                  (item) => (
+                    <span
+                      key={item}
+                      className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
+                    >
+                      {item}
+                    </span>
+                  )
+                )}
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                {["React.js", "Next.js", "TypeScript"].map((item) => (
+                {["Python", "React.js", "Next.js", "TypeScript"].map((item) => (
                   <span
                     key={item}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
@@ -143,16 +145,15 @@ export const BentoGridItem = ({
             <div className="mt-5 relative ">
               <div className={`absolute -bottom-5 right-0`}>
                 {copied && (
-
                   <Lottie
-                  options={{
-                    loop: copied,
-                    autoplay: copied,
-                    animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: "xMidYMid slice",
-                    },
-                  }}
+                    options={{
+                      loop: copied,
+                      autoplay: copied,
+                      animationData,
+                      rendererSettings: {
+                        preserveAspectRatio: "xMidYMid slice",
+                      },
+                    }}
                   />
                 )}
               </div>
