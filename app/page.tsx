@@ -6,6 +6,8 @@ import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
+export const dynamic = "force-dynamic";
+
 
 export default function Home() {
   return (
