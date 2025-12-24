@@ -1,7 +1,8 @@
 "use client";
 import { cn } from "@/utils/cn";
-import { BackgroundGradientAnimation } from "./GradientBg";
-import { GlobeDemo } from "./GridGlobe";
+import dynamic from "next/dynamic";
+const BackgroundGradientAnimation = dynamic(() => import("./GradientBg").then(mod => mod.BackgroundGradientAnimation), { ssr: false });
+const GlobeDemo = dynamic(() => import("./GridGlobe").then(mod => mod.GlobeDemo), { ssr: false });
 import animationData from "@/data/confetti.json";
 import { useState } from "react";
 import Lottie from "react-lottie";
