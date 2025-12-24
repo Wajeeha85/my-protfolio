@@ -48,11 +48,7 @@ export const gridItems = [
 
   {
     id: 5,
-<<<<<<< HEAD
     title: "Currently Exploring Backend",
-=======
-    title: "Building a Python chatbot to answer book queries.",
->>>>>>> 55bab01da4c7ddbfa6b3497841a3c0be2f81cada
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
