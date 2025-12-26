@@ -82,7 +82,7 @@ export const projects = [
     title: "ChattApp",
     des: "Built a real-time chat app using Next.js, TailwindCSS,TypeScript and Firebase with auth, messaging, and live online status features.",
     img: "/Screenshot 2025-06-22 155125.png",
-    iconLists: ["/next.svg", "/firebase.svg", "/tail.svg",],e
+    iconLists: ["/next.svg", "/firebase.svg", "/tail.svg",],
     link: "https://github.com/Wajeeha85/Chattapp/tree/maste ",
   },
   {
