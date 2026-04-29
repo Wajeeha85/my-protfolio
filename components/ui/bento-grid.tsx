@@ -1,8 +1,14 @@
 "use client";
 import { cn } from "@/utils/cn";
 import dynamic from "next/dynamic";
-const BackgroundGradientAnimation = dynamic(() => import("./GradientBg").then(mod => mod.BackgroundGradientAnimation), { ssr: false });
-const GlobeDemo = dynamic(() => import("./GridGlobe").then(mod => mod.GlobeDemo), { ssr: false });
+const BackgroundGradientAnimation = dynamic(
+  () => import("./GradientBg").then((mod) => mod.BackgroundGradientAnimation),
+  { ssr: false }
+);
+const GlobeDemo = dynamic(
+  () => import("./GridGlobe").then((mod) => mod.GlobeDemo),
+  { ssr: false }
+);
 import animationData from "@/data/confetti.json";
 import { useState } from "react";
 import Lottie from "react-lottie";
@@ -115,7 +121,20 @@ export const BentoGridItem = ({
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {["JavaScript", "BootStrap", "Redux", "Firebase"].map(
+                {["React.js", "Python", "Next.js", "TypeScript"].map((item) => (
+                  <span
+                    key={item}
+                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
+                    {item}
+                  </span>
+                ))}
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+              </div>
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                {["JavaScript", "Firebase", "Redux", "Bootstrap"].map(
                   (item) => (
                     <span
                       key={item}
@@ -126,19 +145,6 @@ export const BentoGridItem = ({
                     </span>
                   )
                 )}
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-              </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                {["Python", "React.js", "Next.js", "TypeScript"].map((item) => (
-                  <span
-                    key={item}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
               </div>
             </div>
           )}
