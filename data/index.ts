@@ -71,17 +71,17 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: " Speed Type Challenge",
-    des: "A fast-paced typing game to test your speed and accuracy! Highlighted keys, real-time scoring, and a countdown timer make it an exciting challenge. 🚀",
-    img: "/Screenshot 2025-02-07 154633.png",
-    iconLists: ["/html5.svg", "/css.svg", "/javascript.svg", ],
+    title: "Synapse",
+    des: "Built a real-time AI chatbot with conversation memory and streaming responses using Groq's Llama 3 API. Features include animated UI, dynamic placeholders, and context-aware dialogue.🚀",
+    img: "/Screenshot 2026-05-03 211724.png",
+    iconLists: ["/next.svg", "/tail.svg", "/javascript.svg", ],
     link: "https://github.com/Wajeeha85/Typing-Game",
   },
   {
     id: 2,
     title: "ChattApp",
     des: "Built a real-time chat app using Next.js, TailwindCSS,TypeScript and Firebase with auth, messaging, and live online status features.",
-    img: "/Screenshot 2025-06-22 155125.png",
+    img: " /Screenshot 2026-05-02 163901.png",
     iconLists: ["/next.svg", "/firebase.svg", "/tail.svg",],
     link: "https://github.com/Wajeeha85/Chattapp/tree/maste ",
   },
